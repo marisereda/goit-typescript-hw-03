@@ -19,8 +19,8 @@ class Person {
 }
 
 abstract class House {
-  door: boolean = false;
-  tenants: Person[] = [];
+  protected door: boolean = false;
+  private tenants: Person[] = [];
 
   constructor(protected key: Key) {}
 
